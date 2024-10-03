@@ -1,16 +1,36 @@
 .Etapas{
-    text-align: center;
+    text-align: left;
     padding-top: 400px;
 }
 
 .Texto{
     text-align: center;
-    background-color: ;
+
+    
 }
 
 body{
     background-image: url(Imgproyecto/dm.jpg);
     background-repeat: no-repeat;
     background-position: 75%;
-    
+
+}
+
+.datosduros{
+    padding-top: 50px;
+}
+
+.header{
+text-shadow: white 2px 2px 2px;
+
+}
+
+.imagen{
+    border: 10px groove black;
+    border-radius: 10px;
+    border-color: black;
+    text-align: left;
+    text-justify: auto;
+
+
 }
