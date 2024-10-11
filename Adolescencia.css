@@ -11,15 +11,15 @@ h3 {
 }
 
 .body {
-    background-image: url(Imgproyecto/stay-humble-r9wurbd7zk9rhvr8.jpg);
+    background-image: url(Imgproyecto/dm.jpg);
     background-size: cover;
     background-color: #000000;
 }
 
 .container {
-    display: flex;
+    
     justify-content: space-between;
-    align-items: flex-start; /* Alinea la imagen y el texto en la parte superior */
+    
     padding: 20px;
 }
 
