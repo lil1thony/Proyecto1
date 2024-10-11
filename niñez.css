@@ -1,0 +1,57 @@
+.a {
+    font-size: 500px;
+    color: darkslategray;
+}
+
+h3 {
+    text-align: center;
+    color: #000000;
+    text-shadow: #ffff;
+    font-size: 40px;
+}
+
+.body {
+    background-image: url(Imgproyecto/t5xi06l8ugqy.jpg);
+    background-size: cover;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea la imagen y el texto en la parte superior */
+    padding: 20px;
+}
+
+/* Cuadro con la imagen e información */
+.box {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    background-color: #2F4F4F;
+    text-align: center;
+    color: #98FB98; /* Color de texto para que contraste bien con el fondo */
+}
+
+.box img {
+    width: 100%; /* Imagen ocupa todo el ancho del cuadro */
+}
+
+.box p {
+    margin: 5px 0; /* Espaciado entre párrafos */
+    font-size: 14px; /* Tamaño del texto para que no sea demasiado grande */
+}
+
+
+.part {
+    width: 30%;
+    padding: 20px;
+    background-color: #DCDCDC;
+    text-align: left;
+    margin-left: auto; /* Esto empuja el cuadro a la derecha sin usar márgenes fijos */
+}
+.links{
+    font-size: 30px;
+    text-align: left;
+    text-shadow: cornflowerblue;
+}

@@ -1,36 +1,32 @@
-.Etapas{
-    text-align: left;
-    padding-top: 400px;
+.a {font-size: 500px;
+    color: indianred;
 }
 
-.Texto{
+h1 {
     text-align: center;
-
-    
+    color: #ffffff;
+    text-shadow: #00feba 2px 2px 5px;
+    font-size: 40px;
 }
 
-body{
-    background-image: url(Imgproyecto/dm.jpg);
-    background-repeat: no-repeat;
-    background-position: 75%;
-
+body {
+    background-image: url(Imgproyecto/181b44822f62a49218f4381963aa2d0c.png);
+    background-position: center 9%;
+    background-size: cover;
 }
 
-.datosduros{
-    padding-top: 50px;
+
+.box {
+    width: 20%;
+    font-size: 20px;
+    padding: 5px; /* Aumenté el padding para mejor apariencia */
+    background-color: rgb(66, 66, 66);
+    color: black;
+ 
 }
 
-.header{
-text-shadow: white 2px 2px 2px;
-
-}
-
-.imagen{
-    border: 10px groove black;
-    border-radius: 10px;
-    border-color: black;
+.notes {
+    font-size: 28px;
     text-align: left;
-    text-justify: auto;
-
-
+    color: black;
 }
