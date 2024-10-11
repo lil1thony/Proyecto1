@@ -1,6 +1,7 @@
-.a {
-    font-size: 500px;
-    color: darkslategray;
+body {
+    background-image: url('stay-humble-r9wurbd7zk9rhvr8.jpg'); /* Cambia esto por la ruta correcta */
+    background-size: cover;
+    background-position: center;
 }
 
 h3 {
@@ -10,47 +11,37 @@ h3 {
     font-size: 40px;
 }
 
-.body {
-    background-image: url(Imgproyecto/dm.jpg);
-    background-size: cover;
-    background-color: #000000;
-}
-
 .container {
-    display: flex; /* Alineación horizontal */
-    justify-content: space-between; /* Espacio entre la imagen y el texto */
-    align-items: flex-start; /* Alineamos al inicio verticalmente */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 20px;
 }
 
-/* Cuadro con la imagen e información */
 .box {
-    width: 30%; /* Ajusta el ancho del cuadro de imagen */
+    align-items: center;
+    display: inline-block;
+    width: 20%;
     padding: 10px;
     background-color: #2F4F4F;
     text-align: center;
-    color: #98FB98; /* Color de texto para que contraste con el fondo */
+    color: #98FB98;
 }
 
 .box img {
-    width: 100%; /* Imagen ocupa todo el ancho del cuadro */
-}
-
-.box p {
-    margin: 5px 0; /* Espaciado entre párrafos */
-    font-size: 14px; /* Tamaño del texto para que no sea demasiado grande */
+    width: 100%;
 }
 
 .part {
-    width: 60%; /* Ajustamos el ancho del cuadro de texto */
+    width: 30%;
     padding: 20px;
     background-color: #DCDCDC;
     text-align: left;
-    margin-left: 20px; /* Espacio entre la imagen y el texto */
+    margin-left: auto;
 }
 
 .links {
     font-size: 30px;
-    text-align: left;
+    text-align: left;   
     text-shadow: cornflowerblue;
 }
